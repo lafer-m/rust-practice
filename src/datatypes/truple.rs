@@ -12,4 +12,5 @@ fn real_triple() {
     let t = ("abc", 1, 2.2);
     let (a , b , c) = t;
     println!("{},{},{}",a, b, c);
+    println!("{}{}{}", t.0, t.1, t.2);
 }

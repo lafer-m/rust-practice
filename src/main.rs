@@ -1,10 +1,12 @@
 
 mod guessgame;
 use guessgame::guess;
-mod truple;
-use truple::triple;
+mod datatypes;
+use datatypes::triple;
+use datatypes::arr;
 
 fn main() {
 //    guess();
+   arr();
    triple();
 }
