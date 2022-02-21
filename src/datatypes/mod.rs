@@ -1,7 +1,9 @@
 mod array;
 mod truple;
+mod functions;
 pub use truple::triple;
 pub use array::arr;
+pub use functions::plusx2;
 
 // 引用其他内部模块
 use super::guess;

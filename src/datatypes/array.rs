@@ -7,4 +7,9 @@ pub fn arr() {
             println!("{}",i);
         }
     }
+    let mut index = 0;
+    while index < 5 {
+        println!("{}", test[index]);
+        index += 1;
+    }
 }
