@@ -1,6 +1,12 @@
 use super::guess;
 use super::hello;
 
+
+// calc area
+pub fn area(aa: (u32,u32)) -> u32 {
+    aa.0 * aa.1
+}
+
 pub fn triple() {
     println!("just a mod testing");
     hello();
