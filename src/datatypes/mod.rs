@@ -12,5 +12,5 @@ pub use truple::area;
 pub use structa::Rectangle;
 
 // 引用其他内部模块
-use super::guess;
 use super::guessgame::hello;
+use super::guessgame::guess;
