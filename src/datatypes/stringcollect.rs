@@ -16,11 +16,11 @@ fn string_col() {
 
     // let s4 = s1 + "jjadw" + &s2; // after this, s1 will be moved and invalid.
 
-    // let s5 = s1 + &s2 +&s3; // can't complie, because s1 is invalid
+    // let s5 = s1 + &s2 +&s3; // can't compile, because s1 is invalid
 
     let s6 = format!("{}{} {}", s1,s2,s3);
 
-    // can't complie , String can't index;
+    // can't compile , String can't index;
     let h = s6[0];
     // String is a wrapper of a Vec<u8> in memory;
     //can iterate
