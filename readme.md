@@ -1,3 +1,3 @@
 ## rust practice
 
-just for leaning rust;
+just for learning rust;

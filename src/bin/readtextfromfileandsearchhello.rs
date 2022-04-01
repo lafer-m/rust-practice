@@ -13,6 +13,7 @@ fn main() {
     );
 
     if let Err(e) = run(cfg) {
+            eprintln!("err {}", e);
             process::exit(1);
     }
 }
