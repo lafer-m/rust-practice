@@ -19,8 +19,6 @@ fn test_iterator() {
 
 
 
-
-
 #[derive(Debug, PartialEq)]
 struct Shoe {
     size: u32,
