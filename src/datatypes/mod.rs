@@ -3,6 +3,7 @@ mod truple;
 mod functions;
 mod slice;
 mod structa;
+mod trait_object;
 pub use truple::triple;
 pub use array::arr;
 pub use functions::plusx2;
@@ -14,3 +15,4 @@ pub use structa::Rectangle;
 // 引用其他内部模块
 use super::guessgame::hello;
 use super::guessgame::guess;
+

@@ -10,4 +10,6 @@ mod tests;
 
 pub mod document;
 mod smartpointer;
+mod concurrency;
+mod oop;
 pub use document::doc::add_one;
