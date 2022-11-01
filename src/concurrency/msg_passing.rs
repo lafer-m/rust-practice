@@ -1,2 +1,3 @@
 // rust chanel
-// multi sender and single receiver.
+// multi sender and multi receiver.
+// mychannel
