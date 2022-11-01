@@ -12,4 +12,7 @@ pub mod document;
 mod smartpointer;
 mod concurrency;
 mod oop;
+mod pattern;
+mod unsafely;
+mod macros;
 pub use document::doc::add_one;

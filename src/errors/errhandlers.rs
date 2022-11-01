@@ -45,3 +45,20 @@ fn read_username() -> Result<String, io::Error> {
 
 
 
+
+
+fn handler_error() -> Result<(), Box<dyn std::error::Error>> {
+    Err("testxxxx")?;
+    println!("test11");
+    Ok(())
+}
+
+
+#[test]
+fn test_err() {
+    let r = handler_error();
+    match r {
+        Ok(_) => println!("retrun ok"),
+        Err(e) => println!("is {}", e),
+    }
+}

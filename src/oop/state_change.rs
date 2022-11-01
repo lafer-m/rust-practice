@@ -19,7 +19,6 @@
 //     assert_eq!("I ate a salad for lunch today", post.content());
 
 
-
 pub struct Post {
     state: Option<Box<dyn State>>,
     contents: String,
