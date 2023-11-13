@@ -1,3 +1,4 @@
+#![feature(cow_is_borrowed)]
 
 pub mod errors;
 pub mod guessgame;

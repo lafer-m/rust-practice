@@ -13,3 +13,13 @@ pub fn arr() {
         index += 1;
     }
 }
+
+
+/// ?Sized not sized type, such as i32 u32
+fn type_limit<T: ?Sized>(a: &T) {}
+
+#[test]
+fn test_l() {
+    let a = 0;
+    type_limit(&a);
+}
